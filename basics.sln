@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world_cli", "hello_wo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_web_api", "hello_web_api\hello_web_api.csproj", "{9246CE1E-E99B-480C-96F0-3FD30F23308A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApp", "ProductApp\ProductApp.csproj", "{C139C485-9551-45EB-8670-02A3DB133AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C139C485-9551-45EB-8670-02A3DB133AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C139C485-9551-45EB-8670-02A3DB133AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C139C485-9551-45EB-8670-02A3DB133AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C139C485-9551-45EB-8670-02A3DB133AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
