@@ -10,4 +10,6 @@ var app = builder.Build(); //WebApplication Create
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.MapControllers();
+
 app.Run();
