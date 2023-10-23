@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world_api_ui", "hello
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello_world_cli", "hello_world_cli\hello_world_cli.csproj", "{172C551D-4E95-42EA-8C0B-B2F8B5E6F13E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello_web_api", "hello_web_api\hello_web_api.csproj", "{9246CE1E-E99B-480C-96F0-3FD30F23308A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{172C551D-4E95-42EA-8C0B-B2F8B5E6F13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172C551D-4E95-42EA-8C0B-B2F8B5E6F13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{172C551D-4E95-42EA-8C0B-B2F8B5E6F13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9246CE1E-E99B-480C-96F0-3FD30F23308A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
