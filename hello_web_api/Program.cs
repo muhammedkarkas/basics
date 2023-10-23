@@ -7,9 +7,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build(); //WebApplication Create
 
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.MapControllers();
-
 app.Run();
+
+//ISS development deðilde production modda old için sistem ISS üzerinden ayaða kaldýrýldýðýnda swagger kullanýlamayacak. Eðer development modda ise uygulama swagger kullanabilecektir. Bu mod ayarlamalarý launcsetting dosyasý içerisinde yapýlmaktadýr.
